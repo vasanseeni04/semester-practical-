@@ -1,0 +1,67 @@
+
+advertisment{
+margin-top: auto;
+}
+Topic
+{
+text-align: center;
+font-style:bold;
+font-size: large;
+font-weith:bold;
+padding: 460px;
+font-family: 'Courier New', Courier, monospace;
+}
+name
+{
+text-align: center;
+font-style:bold;
+font-size: larger;
+font-weith:bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 580px;
+}
+about
+{
+display:block;
+color:color-mix(in srgb, rgb(230, 20, 30) 50%, black 50%);
+font-style:italic;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: medium;
+font: 1em;
+padding: 3%;
+height: 6%;
+justify-content: center;
+}
+contactus{
+ background-color: rgb(42, 99, 165);
+ width: 100pc;
+ height: 150px;
+ padding: 2%;
+ position: fixed;
+ bottom: 0px;
+ manufacture{
+ color: aqua;
+ text-align: center;
+ padding: 570px;
+ }
+ address{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: medium;
+ color:rgb(24, 24, 24);
+ padding: 560%;
+ }
+ Email{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: medium;
+ font-style: bold;
+ color:rgb(24, 24, 24);
+ padding: 560%;
+ }
+ customercare{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: medium;
+ font-style: bold;
+ color:rgb(24, 24, 24);
+ padding: 100%;
+ }
+}
