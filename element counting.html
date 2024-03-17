@@ -1,0 +1,40 @@
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewpoint" content = "width=device-width , initial-scale = "1.0">
+	<title>Element Counting Form</title>
+</head>
+<body>
+	<form id = "myForm">
+		<label for = "textbox1">Text Box 1</label>
+		<input type = "text" id = "textbox1" name = "textbox1">
+		<br>
+		<label for = "textbox2">Text Box 2</label>
+		<input type = "text" id = "textbox2" name = "textbox2">
+		<br>
+		<label for = "radio1">Radio 1</label>
+		<input type = "radio" id = "radio1" name = "radio1">
+		<br>
+		<label for = "radio2">Radio 2</label>
+		<input type = "radio" id = "radio2" name = "radio2">
+		<br>
+		<label for = "checkbox1">Check Box 1</label>
+		<input type = "checkbox" id = "checkbox1" name = "checkbox1">
+		<br>
+		<label for = "checkbox2">Check Box 2</label>
+		<input type = "checkbox2" id = "checkbox2" name = "checkbox2">
+		<br>
+		<button type = "button" onclick = "countElements()">Count Elements</button>
+	</form>
+
+
+<script>
+	function countElements() 
+	{
+		var formElements = document.getElementById("myForm").elements;
+		var elementCount = formElements.length;
+		alert("Total number of elements in the form : "+elementCount);
+	}
+</script>
+</body>
+</html>
