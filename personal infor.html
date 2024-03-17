@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Information</title>
+<style>
+body{
+text-align:center;
+}
+p{
+color:green;
+}
+</style>
+</head>
+<body>
+<h1>About Myself</h1>
+<h3>Enter your Name: </h3>
+<input id="name"type="text">
+<button type = "button" onclick="EnterName()">Submit</button>
+<p id="demo"></p>
+<script>
+function EnterName(){
+let user=document.getElementById("name").value;
+document.getElementById("demo").innerHTML="Welcome "+user;
+}
+</script>
+<h2>My hobbies:</h2>
+<p>I like to read books and listen to music</p>
+<h2>Contact Me:</h2>
+<p>Mobile:- 1234567890. Email:- abc@gmail.com</p>
+</body>
+</html>
